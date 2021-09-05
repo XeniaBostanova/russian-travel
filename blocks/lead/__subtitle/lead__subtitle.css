@@ -1,5 +1,5 @@
 .lead__subtitle {
-  width: 640px;
+  max-width: 640px;
   padding-top: 32px;
   padding-bottom: 64px;
   text-align: center;
