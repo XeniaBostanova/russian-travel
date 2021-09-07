@@ -8,10 +8,6 @@
   color: #FFFFFF;
 }
 
-.header__lang-link:hover {
-  text-decoration: underline;
-}
-
 .header__lang-link:last-child {
   margin-right: 0;
 }

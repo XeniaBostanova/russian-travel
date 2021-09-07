@@ -1,0 +1,28 @@
+.cover {
+  background-image: url('../../images/cover-trains.jpg');
+  background-position: center;
+  background-size: cover;
+  max-width: 1184px;
+  width: 100%;
+  min-height: 740px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.cover::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #2A2C2F;
+  opacity: .3;
+  transition: opacity .5s ease;
+}
+
+.cover:hover:before {
+  opacity: .8;
+  cursor: pointer;
+}
